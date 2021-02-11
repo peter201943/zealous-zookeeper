@@ -17,6 +17,7 @@
 - [ ] Find Basic Animal Assets
 - [ ] Find Basic Food Assets
 - [ ] Find Basic Terrain Assets
+- [ ] Discuss Project Direction
 
 
 

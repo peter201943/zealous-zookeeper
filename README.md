@@ -135,6 +135,39 @@
     - CarrotAmmo Amount
 - **Scenes**
   - Where we put the level and associated NavMeshes
+  - **NavMeshes**
+    - Each NavMesh is considered is own level
+    - Hence we store them in this folder
+
+
+
+
+
+
+
+
+
+
+## Relevant Snack-Attack Files
+- [`AntiChocolateAttack.cs`](https://github.com/peter201943/Snack-Attack/blob/master/Assets/Player/Gun/AntiChocolate/AntiChocolateAttack.cs)
+- [`PlayerMovement.cs`](https://github.com/peter201943/Snack-Attack/blob/master/Assets/Player/Character/PlayerMovement.cs)
+- [`PlayerInventory.cs`](https://github.com/peter201943/Snack-Attack/blob/master/Assets/Player/Character/PlayerInventory.cs)
+- [`PlayerAttack.cs`](https://github.com/peter201943/Snack-Attack/blob/master/Assets/Player/Character/PlayerAttack.cs)
+- [`AmmoPickup.cs`](https://github.com/peter201943/Snack-Attack/blob/master/Assets/Ammo/AmmoPickup.cs)
+- [`GameManager.cs`](https://github.com/peter201943/Snack-Attack/blob/master/Assets/Game/GameManager.cs)
+- [`MainMenu.cs`](https://github.com/peter201943/Snack-Attack/blob/master/Assets/Game/MainMenu.cs)
+- [`PauseGame.cs`](https://github.com/peter201943/Snack-Attack/blob/master/Assets/Game/PauseGame.cs)
+- [`MonsterSpawn.cs`](https://github.com/peter201943/Snack-Attack/blob/master/Assets/Game/MonsterSpawn.cs)
+- [`MonsterAttack.cs`](https://github.com/peter201943/Snack-Attack/blob/master/Assets/Monsters/MonsterAttack.cs)
+- [`MonsterHealth.cs`](https://github.com/peter201943/Snack-Attack/blob/master/Assets/Monsters/MonsterHealth.cs)
+- [`MonsterMovement.cs`](https://github.com/peter201943/Snack-Attack/blob/master/Assets/Monsters/MonsterMovement.cs)
+- Debug Material
+- Animators
+
+
+
+
+
 
 
 
@@ -148,6 +181,7 @@
 - [Installation](#installation)
 - [Contributing](#contributing)
 - [Architecture](#architecture)
+- [Relevant Snack-Attack Files](#relevant-snack-attack-files)
 - [List](#list)
 - [Definitions](#definitions)
 - [Differentiating the Player Discussion](#differentiating-the-player-discussion)
