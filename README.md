@@ -26,7 +26,7 @@
 - Various ideas for this Project
 - Attempting new style, very fundamental
 - Started `2021-02-10T17:00:00-05:00`
-- [GitHub Repository at **Zealous Zookeeper*](https://github.com/peter201943/zealous-zookeeper)
+- [GitHub Repository at **Zealous Zookeeper**](https://github.com/peter201943/zealous-zookeeper)
 
 
 
@@ -248,14 +248,19 @@
 ### Aiming
 - P1 has to aim at specific enemies
 - P1 vision is narrow and detailed
-- P1 has to choose the right kind of ammo
+
+### Choosing Ammo
+- P1 has to choose the right kind of ammo for the target
+
+### Choosing Enemies
+- P2 has to choose which group of enemies to engage
 
 ### Moving
 - P2 must move the player around
 - P2 vision is broad and peripheral
 
 ### Reloading
-- P1 must perform
+- P1 must perform 
 
 ### Dodging
 - P2 has to avoid incoming attacks
@@ -278,8 +283,13 @@
 
 ### Tasks, Abilities, Visions
 - Task: Sequence of Actions to fulfill an Ability's Effect
-- Ability:
+- Ability: List of Tasks that each player must perform to win the game
 - Vision: What a Player can see/know
+
+### The Point of it All
+- We want to emphasize two things: **Decision Making** and **Communication**
+- Forcing players to **Make a Decision** creates stress
+- Forcing players to **Communicate** create teamwork
 
 
 
@@ -409,6 +419,7 @@
 
 
 ## Asset Selection Discussion
+- TODO
 
 
 
@@ -446,12 +457,16 @@
 - [Itch IO](https://itch.io/game-assets/free)
 
 ### Food Sprites
+- TODO
 
 ### Food Sounds
+- TODO
 
 ### Animal Sprites
+- TODO
 
 ### Animal Sounds
+- TODO
 
 ### Topdown Shooter Bots
 - [Unity Top Down Shooter #5 - Making Enemies](https://www.youtube.com/watch?v=2LQ27NV_bpQ)
