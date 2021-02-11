@@ -17,6 +17,11 @@
 
 ## Discussion
 - Experimental Top-Down 2-Player Game for Drexel University
+- [See the Trailer on YouTube]() (FIXME)
+- Project 2 Team 2, `2021-02-08` to `2021-02-22`
+- [Peter Mangelsdorf](https://github.com/peter201943/)
+- [Erjun ]() (FIXME)
+- [Dawei Chi]() (FIXME)
 - Various ideas for this Project
 - Attempting new style, very fundamental
 - Started `2021-02-10T17:00:00-05:00`
@@ -27,10 +32,28 @@
 
 
 
+## Installation
+- Check the [Releases tab](https://github.com/peter201943/zealous-zookeeper/releases/) for standalone executables
+
+
+
+
+
+
+## Contributing
+- Install [**Unity `2019.4 LTS`**](https://unity.com/releases/2019-lts)
+- Install [**Git**](https://git-scm.com/)
+
+
+
+
+
 
 
 ## List
 - [Discussion](#discussion)
+- [Installation](#installation)
+- [Contributing](#contributing)
 - [List](#list)
 - [Definitions](#definitions)
 - [Differentiating the Player Discussion](#differentiating-the-player-discussion)
