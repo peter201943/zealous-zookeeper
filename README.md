@@ -302,6 +302,19 @@
 
 ### Animal Sounds
 
+### Topdown Shooter Bots
+- [Unity Top Down Shooter #5 - Making Enemies](https://www.youtube.com/watch?v=2LQ27NV_bpQ)
+- [Unity NavMesh Tutorial - Making it Dynamic](https://www.youtube.com/watch?v=FkLJ45Pt-mY)
+- [TopDown AI](https://assetstore.unity.com/packages/templates/topdown-ai-54579)
+  - Ready-to-go asset
+  - [Linked Tutorial](https://codeartist.mx/hotline-miami/)
+
+### Topdown Shooter Weapons
+- (Not needed, we will just use my old projectile code)
+
+### Misc Code
+- [How to make a HEALTH BAR in Unity!](https://www.youtube.com/watch?v=BLfNP4Sc_iA)
+- [START MENU in Unity](https://www.youtube.com/watch?v=zc8ac_qUXQY)
 
 
 
