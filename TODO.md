@@ -23,7 +23,7 @@
 - [x] Find Sounds
 - [x] Find Music
 - [x] Find Character
-- [ ] Add Sounds
+- [x] Add Sounds
 - [x] Add Music
 - [x] Add Player Character
 - [x] Create EventManager Singleton
@@ -32,20 +32,22 @@
   - [x] `Singleton`
 - [ ] Create Animal Class
   - [ ] Adjust Movement Collider Size
-  - [ ] `Start()`
-  - [ ] `Defeat()`
-  - [ ] `Attack()`
+  - [x] `Start()`
+  - [x] `Defeat()`
+  - [x] `Attack()`
   - [ ] `Patrol()`
   - [ ] `Chase()`
-  - [ ] `moveSpeed`
-  - [ ] `attackDamage`
-  - [ ] `AudioSource2D`
-  - [ ] `attackSound`
-  - [ ] `moveSound`
-  - [ ] `spawnSound`
-  - [ ] `defeatSound`
-  - [ ] `_attackCircle`
-  - [ ] `_detectionCircle`
+  - [x] `moveSpeed`
+  - [x] `attackDamage`
+  - [x] `AudioSource2D`
+  - [x] `attackSound`
+  - [x] `moveSound`
+  - [x] `spawnSound`
+  - [x] `defeatSound`
+  - [ ] separate `_attackCircle`
+  - [ ] separate `_detectionCircle`
+  - [ ] moving towards player
+  - [ ] moving along path
 - [ ] Differentiate Animal Class in Bear
   - [ ] `Attack()`
   - [ ] `Chase()`
@@ -63,10 +65,10 @@
   - [ ] `Chase()`
 - [ ] Create Player Class
   - [ ] Adjust Movement Collider Size
-  - [ ] `attackSound`
-  - [ ] `moveSound`
-  - [ ] `spawnSound`
-  - [ ] `defeatSound`
+  - [x] `attackSound`
+  - [x] `moveSound`
+  - [x] `spawnSound`
+  - [x] `defeatSound`
   - [ ] `Start()`
   - [ ] `Defeat()`
   - [ ] `Attack()`
