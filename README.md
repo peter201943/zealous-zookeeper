@@ -315,7 +315,6 @@
 - License [CC-0 1.0 Universal License](http://creativecommons.org/publicdomain/zero/1.0/)
 - Used By `Monkey.Spawn()`
 - File Name `MonkeySpawn.ogg`
-- ADDME
 
 ### [Monkeyz » Gorillaschrei.wav](https://freesound.org/people/J0ck0/sounds/397054/)
 - Oneshot-Audio
@@ -323,7 +322,6 @@
 - License [CC-0 1.0 Universal License](http://creativecommons.org/publicdomain/zero/1.0/)
 - Used By `Monkey.Attack()`
 - File Name `MonkeyAttack.ogg`
-- ADDME
 
 
 
