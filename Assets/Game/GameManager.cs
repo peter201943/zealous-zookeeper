@@ -17,6 +17,7 @@ public class GameManager : MonoBehaviour
         currentClip = 0;
         maxClip = musicTracks.Count;
         music = GetComponent<AudioSource>();
+        music.volume = 0.5f;
     }
 
     // Check if music has stopped playing
