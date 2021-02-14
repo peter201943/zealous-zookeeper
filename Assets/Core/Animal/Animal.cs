@@ -35,6 +35,7 @@ public enum AnimalState
 /// </summary>
 [RequireComponent(typeof(AudioSource))]
 [RequireComponent(typeof(Collider2D))]
+[RequireComponent(typeof(AnimalBehavior))]
 public class Animal : MonoBehaviour
 {
 
@@ -61,20 +62,25 @@ public class Animal : MonoBehaviour
     public float spawnDelay;            // How long until start playing
 
     // Delay Trackers
-    protected float currentMoveSoundDelay;
-    protected float currentAttackDelay;
-    protected float currentSpawnDelay;
+    private float currentMoveSoundDelay;
+    private float currentAttackDelay;
+    private float currentSpawnDelay;
 
     // Sounds
-    protected AudioSource sounds;
+    private AudioSource sounds;
 
     // States
-    protected AnimalState animalState;
+    private AnimalState animalState;
+
+    // Delegates
+    // We delegate the AnimalBehavior for controlling
+    // * Patrols * Attacks
+    private AnimalBehavior animalBehavior;
 
 
 
 
-    protected void Start()
+    void Start()
     {
         // Sounds
         sounds = GetComponent<AudioSource>();
@@ -82,6 +88,9 @@ public class Animal : MonoBehaviour
 
         // States
         animalState = AnimalState.Waiting;
+
+        // Delegates
+        animalBehavior = GetComponent<AnimalBehavior>();
 
         // Timers
         currentMoveSoundDelay   = 0.0f;
@@ -92,7 +101,7 @@ public class Animal : MonoBehaviour
 
 
 
-    protected void Update()
+    void Update()
     {
         // Update All Timers
         {
@@ -132,7 +141,7 @@ public class Animal : MonoBehaviour
 
 
 
-    protected void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
         // If collision is player and we are the awareness circle and we are patrolling
         // chase them
@@ -161,7 +170,7 @@ public class Animal : MonoBehaviour
     /// <summary>
     /// Only we can choose to attack
     /// </summary>
-    protected void Attack(GameObject playerObject)
+    private void Attack(GameObject playerObject)
     {
         sounds.PlayOneShot(attackSound);
         playerObject.GetComponent<PlayerMover>().Damage(attackDamage);
@@ -169,7 +178,11 @@ public class Animal : MonoBehaviour
 
 
 
-
+    /// <summary>
+    /// Called from update
+    /// Find paths
+    /// TODO
+    /// </summary>
     private void Patrol()
     {
 

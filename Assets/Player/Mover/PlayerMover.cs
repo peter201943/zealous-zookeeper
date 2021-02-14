@@ -80,6 +80,7 @@ public class PlayerMover : MonoBehaviour
         
         // Notify GameManager of Game Over
         // gameManager.PlayerDefeated();
+        // TODO
     }
 
     public void Damage(float amount)

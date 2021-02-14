@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Monkey : Animal
+public class BearBehavior : AnimalBehavior
 {
     // Start is called before the first frame update
     void Start()
