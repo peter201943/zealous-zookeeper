@@ -20,13 +20,18 @@ public class Bullet : MonoBehaviour
     {
         if (collision.gameObject.tag == this.gameObject.tag)
         {
-            Destroy(collision.gameObject);
+            // Destroy(collision.gameObject);
+            
+            // Destroy Ourselves
+            Destroy(this.gameObject);
+
+            // Notify the target
+            collision.gameObject.GetComponent<Animal>().Defeat();
+        }
+
+        if (collision.gameObject.tag != "Player" && collision.gameObject.tag != this.gameObject.tag)
+        {
             Destroy(this.gameObject);
         }
-        
-       if(collision.gameObject.tag != "Player" && collision.gameObject.tag != this.gameObject.tag)
-            Destroy(this.gameObject);
-        // if(collision.gameObject.tag == "Wall")
-        //   Destroy(this.gameObject);
     }
 }

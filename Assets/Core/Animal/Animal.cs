@@ -81,6 +81,9 @@ public class Animal : MonoBehaviour
     // * Patrols * Attacks
     private AnimalBehavior animalBehavior;
 
+    // What we attack when we find it
+    private GameObject target;
+
 
 
 
@@ -100,6 +103,8 @@ public class Animal : MonoBehaviour
         currentMoveSoundDelay   = 0.0f;
         currentAttackDelay      = 0.0f;
         currentSpawnDelay       = spawnDelay;
+
+        // TEMP HACK DO NOT USE PERMANENTLY
     }
 
 
@@ -197,10 +202,10 @@ public class Animal : MonoBehaviour
     /// <summary>
     /// Only we can choose to attack
     /// </summary>
-    private void Attack(GameObject playerObject)
+    private void Attack(GameObject targetObject)
     {
         sounds.PlayOneShot(attackSound);
-        playerObject.GetComponent<PlayerMover>().Damage(attackDamage);
+        targetObject.GetComponent<PlayerMover>().Damage(attackDamage);
         currentAttackDelay = attackDelay;
     }
 
