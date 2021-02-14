@@ -15,17 +15,46 @@
 - [x] Find Sounds
 - [x] Find Music
 - [x] Find Character
-- [ ] Add Music
-- [ ] Add Character
 - [ ] Add Sounds
+- [ ] Add Music
+- [ ] Add Player Character
 - [ ] Create EventManager Singleton
 - [ ] Create Animal Class
+  - [ ] `Start()`
+  - [ ] `Defeat()`
+  - [ ] `Attack()`
+  - [ ] `Patrol()`
+  - [ ] `Chase()`
+  - [ ] `moveSpeed`
+  - [ ] `attackDamage`
+  - [ ] `AudioSource2D`
+  - [ ] `attackSound`
+  - [ ] `moveSound`
+  - [ ] `spawnSound`
+  - [ ] `defeatSound`
 - [ ] Differentiate Animal Class in Bear
+  - [ ] `Attack()`
+  - [ ] `Chase()`
 - [ ] Differentiate Animal Class in Deer
+  - [ ] `Attack()`
+  - [ ] `Chase()`
 - [ ] Differentiate Animal Class in Eagle
+  - [ ] `Attack()`
+  - [ ] `Chase()`
 - [ ] Differentiate Animal Class in Monkey
+  - [ ] `Attack()`
+  - [ ] `Chase()`
 - [ ] Differentiate Animal Class in Rabbit
+  - [ ] `Attack()`
+  - [ ] `Chase()`
 - [ ] Create Player Class
+  - [ ] `attackSound`
+  - [ ] `moveSound`
+  - [ ] `spawnSound`
+  - [ ] `defeatSound`
+  - [ ] `Start()`
+  - [ ] `Defeat()`
+  - [ ] `Attack()`
 
 
 
