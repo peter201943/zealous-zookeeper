@@ -19,6 +19,9 @@
 - [ ] Add Music
 - [ ] Add Player Character
 - [ ] Create EventManager Singleton
+  - [ ] Add to all scenes
+  - [ ] `music[]`
+  - [ ] `Singleton`
 - [ ] Create Animal Class
   - [ ] `Start()`
   - [ ] `Defeat()`
