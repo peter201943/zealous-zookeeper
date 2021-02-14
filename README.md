@@ -211,31 +211,67 @@
 
 
 
-## Sound Credits
+## All Sound Credits
 
-### [Creature Sounds » Monkey Imitation 1](https://freesound.org/people/AntumDeluge/sounds/417817/)
+### [GrassSteps.wav](https://freesound.org/people/The120thwhisper/sounds/463852/)
 - Oneshot-Audio
-- By [AntumDeluge](https://freesound.org/people/AntumDeluge/)
+- By [The120thwhisper](https://freesound.org/people/The120thwhisper/)
 - License [CC-0 1.0 Universal License](http://creativecommons.org/publicdomain/zero/1.0/)
-- Used By `Monkey.Spawn()`
-- File Name `MonkeySpawn.ogg`
+- Used By `Deer.Move()`, `Player.Move()`, `Bear.Move()`, `Monkey.Move()`
+- File Name `GroundMove.ogg`
+
+
+
+
+
+
+## Bear Sound Credits
+
+### [Beast Snarling](https://freesound.org/people/Christopherderp/sounds/342204/)
+- Oneshot-Audio
+- By [Christopherderp](https://freesound.org/people/Christopherderp/)
+- License [CC-0 1.0 Universal License](http://creativecommons.org/publicdomain/zero/1.0/)
+- Used By `Bear.Spawn()`
+- File Name `BearSpawn.ogg`
 - ADDME
 
-### [Monkeyz » Gorillaschrei.wav](https://freesound.org/people/J0ck0/sounds/397054/)
+### [GrowlSnarl.wav](https://freesound.org/people/Jamius/sounds/41526/)
 - Oneshot-Audio
-- By [J0ck0](https://freesound.org/people/J0ck0/)
-- License [CC-0 1.0 Universal License](http://creativecommons.org/publicdomain/zero/1.0/)
-- Used By `Monkey.Attack()`
-- File Name `MonkeyAttack.ogg`
+- By [Jamius](https://freesound.org/people/Jamius/)
+- License [CC-BY 3.0](http://creativecommons.org/licenses/by-nc/3.0/)
+- Used By `Bear.Attack()`
+- File Name `BearAttack.ogg`
 - ADDME
 
-### [Throw/Swipe](https://freesound.org/people/mrickey13/sounds/515625/)
+### [Monster 4.wav](https://freesound.org/people/Sea%20Fury/sounds/48688/)
 - Oneshot-Audio
-- By [mrickey13](https://freesound.org/people/mrickey13/)
-- License [CC-0 1.0 Universal License](http://creativecommons.org/publicdomain/zero/1.0/)
-- Used By `Player.Attack()`
-- File Name `PlayerAttack.ogg`
+- By [Sea Fury](https://freesound.org/people/Sea%20Fury/)
+- License [CC-BY 3.0](http://creativecommons.org/licenses/by-nc/3.0/)
+- Used By `Bear.DeSpawn()`
+- File Name `BearDeSpawn.ogg`
 - ADDME
+
+
+
+
+
+
+## Deer Sound Credits
+
+### [video game » Angry Ram](https://freesound.org/people/ReadeOnly/sounds/186921/)
+- Oneshot-Audio
+- By [ReadeOnly](https://freesound.org/people/ReadeOnly/)
+- License [CC-0 1.0 Universal License](http://creativecommons.org/publicdomain/zero/1.0/)
+- Used By `Deer.Attack()`
+- File Name `DeerAttack.ogg`
+- ADDME
+
+
+
+
+
+
+## Eagle Sound Credits
 
 ### [TEC Bird Chirps and Phrases » brd_hawk.wav](https://freesound.org/people/tec_studio/sounds/362426/)
 - Oneshot-Audio
@@ -261,27 +297,51 @@
 - File Name `EagleMoveOnce.ogg`
 - ADDME
 
-### [video game » Angry Ram](https://freesound.org/people/ReadeOnly/sounds/186921/)
-- Oneshot-Audio
-- By [ReadeOnly](https://freesound.org/people/ReadeOnly/)
-- License [CC-0 1.0 Universal License](http://creativecommons.org/publicdomain/zero/1.0/)
-- Used By `Deer.Attack()`
-- File Name `DeerAttack.ogg`
-- ADDME
-
-### [GrassSteps.wav](https://freesound.org/people/The120thwhisper/sounds/463852/)
-- Oneshot-Audio
-- By [The120thwhisper](https://freesound.org/people/The120thwhisper/)
-- License [CC-0 1.0 Universal License](http://creativecommons.org/publicdomain/zero/1.0/)
-- Used By `Deer.Move()`, `Player.Move()`, `Bear.Move()`, `Monkey.Move()`
-- File Name `GroundMove.ogg`
-
 ### [Crow Caw](https://freesound.org/people/josepharaoh99/sounds/361470/)
 - Oneshot-Audio
 - By [josepharaoh99](https://freesound.org/people/josepharaoh99/)
 - License [CC-0 1.0 Universal License](http://creativecommons.org/publicdomain/zero/1.0/)
 - Used By `Eagle.DeSpawn()`
 - File Name `EagleDeSpawn.ogg`
+- ADDME
+
+
+
+
+
+
+
+## Monkey Sound Credits
+
+### [Creature Sounds » Monkey Imitation 1](https://freesound.org/people/AntumDeluge/sounds/417817/)
+- Oneshot-Audio
+- By [AntumDeluge](https://freesound.org/people/AntumDeluge/)
+- License [CC-0 1.0 Universal License](http://creativecommons.org/publicdomain/zero/1.0/)
+- Used By `Monkey.Spawn()`
+- File Name `MonkeySpawn.ogg`
+- ADDME
+
+### [Monkeyz » Gorillaschrei.wav](https://freesound.org/people/J0ck0/sounds/397054/)
+- Oneshot-Audio
+- By [J0ck0](https://freesound.org/people/J0ck0/)
+- License [CC-0 1.0 Universal License](http://creativecommons.org/publicdomain/zero/1.0/)
+- Used By `Monkey.Attack()`
+- File Name `MonkeyAttack.ogg`
+- ADDME
+
+
+
+
+
+
+## Player Sound Credits
+
+### [Throw/Swipe](https://freesound.org/people/mrickey13/sounds/515625/)
+- Oneshot-Audio
+- By [mrickey13](https://freesound.org/people/mrickey13/)
+- License [CC-0 1.0 Universal License](http://creativecommons.org/publicdomain/zero/1.0/)
+- Used By `Player.Attack()`
+- File Name `PlayerAttack.ogg`
 - ADDME
 
 ### [For players » Die8.wav](https://freesound.org/people/Far_Box_creature/sounds/469567/)
@@ -291,6 +351,14 @@
 - Used By `Player.DeSpawn()`
 - File Name `PlayerDeSpawn.ogg`
 - ADDME
+
+
+
+
+
+
+
+## Rabbit Sound Credits
 
 ### [Sounds of random » Cartoon Boing.wav](https://freesound.org/people/reelworldstudio/sounds/161122/)
 - Oneshot-Audio
@@ -308,36 +376,12 @@
 - File Name `RabbitSpawn.ogg`
 - ADDME
 
-### [Beast Snarling](https://freesound.org/people/Christopherderp/sounds/342204/)
-- Oneshot-Audio
-- By [Christopherderp](https://freesound.org/people/Christopherderp/)
-- License [CC-0 1.0 Universal License](http://creativecommons.org/publicdomain/zero/1.0/)
-- Used By `Bear.Spawn()`
-- File Name `BearSpawn.ogg`
-- ADDME
-
-### [GrowlSnarl.wav](https://freesound.org/people/Jamius/sounds/41526/)
-- Oneshot-Audio
-- By [Jamius](https://freesound.org/people/Jamius/)
-- License [CC-BY 3.0](http://creativecommons.org/licenses/by-nc/3.0/)
-- Used By `Bear.Attack()`
-- File Name `BearAttack.ogg`
-- ADDME
-
 ### [Animal » Animal_Snarl_1.wav](https://freesound.org/people/D001447733/sounds/464596/)
 - Oneshot-Audio
 - By [D001447733](https://freesound.org/people/D001447733/)
 - License [CC-BY 3.0](http://creativecommons.org/licenses/by-nc/3.0/)
 - Used By `Rabbit.Attack()`
 - File Name `RabbitAttack.ogg`
-- ADDME
-
-### [Monster 4.wav](https://freesound.org/people/Sea%20Fury/sounds/48688/)
-- Oneshot-Audio
-- By [Sea Fury](https://freesound.org/people/Sea%20Fury/)
-- License [CC-BY 3.0](http://creativecommons.org/licenses/by-nc/3.0/)
-- Used By `Bear.DeSpawn()`
-- File Name `BearDeSpawn.ogg`
 - ADDME
 
 ### [ TheBigSqueak » The Big Squeak (8) Break ](https://freesound.org/people/Fantozzi/sounds/214874/)
@@ -347,6 +391,5 @@
 - Used By `Rabbit.DeSpawn()`
 - File Name `RabbitDeSpawn.ogg`
 - ADDME
-
 
 
