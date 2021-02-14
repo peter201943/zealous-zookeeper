@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Bear : MonoBehaviour
+public class Bear : Animal
 {
     // Start is called before the first frame update
     void Start()
