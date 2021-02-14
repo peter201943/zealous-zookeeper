@@ -354,7 +354,6 @@
 - License [CC-0 1.0 Universal License](http://creativecommons.org/publicdomain/zero/1.0/)
 - Used By `Rabbit.Move()`
 - File Name `RabbitMove.ogg`
-- ADDME
 
 ### [angry-squirrel1.wav](https://freesound.org/people/echobones/sounds/122261/)
 - Oneshot-Audio
@@ -362,7 +361,6 @@
 - License [CC-BY 3.0](http://creativecommons.org/licenses/by-nc/3.0/)
 - Used By `Rabbit.Spawn()`
 - File Name `RabbitSpawn.ogg`
-- ADDME
 
 ### [Animal » Animal_Snarl_1.wav](https://freesound.org/people/D001447733/sounds/464596/)
 - Oneshot-Audio
@@ -370,7 +368,6 @@
 - License [CC-BY 3.0](http://creativecommons.org/licenses/by-nc/3.0/)
 - Used By `Rabbit.Attack()`
 - File Name `RabbitAttack.ogg`
-- ADDME
 
 ### [ TheBigSqueak » The Big Squeak (8) Break ](https://freesound.org/people/Fantozzi/sounds/214874/)
 - Oneshot-Audio
@@ -378,6 +375,5 @@
 - License [CC-0 1.0 Universal License](http://creativecommons.org/publicdomain/zero/1.0/)
 - Used By `Rabbit.DeSpawn()`
 - File Name `RabbitDeSpawn.ogg`
-- ADDME
 
 
