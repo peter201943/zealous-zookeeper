@@ -279,7 +279,6 @@
 - License [CC-BY 3.0](http://creativecommons.org/licenses/by-nc/3.0/)
 - Used By `Eagle.Attack()`
 - File Name `EagleAttack.ogg`
-- ADDME
 
 ### [Eagle Cry.wav](https://freesound.org/people/kaydinhamby/sounds/381200/)
 - Oneshot-Audio
@@ -287,7 +286,6 @@
 - License [CC-0 1.0 Universal License](http://creativecommons.org/publicdomain/zero/1.0/)
 - Used By `Eagle.Spawn()`
 - File Name `EagleSpawn.ogg`
-- ADDME
 
 ### [Bird Flaps » BirdFlap2.wav](https://freesound.org/people/AgentDD/sounds/246224/)
 - Oneshot-Audio
@@ -295,7 +293,6 @@
 - License [CC-BY 3.0](http://creativecommons.org/licenses/by-nc/3.0/)
 - Used By `Eagle.Move()`
 - File Name `EagleMoveOnce.ogg`
-- ADDME
 
 ### [Crow Caw](https://freesound.org/people/josepharaoh99/sounds/361470/)
 - Oneshot-Audio
@@ -303,7 +300,6 @@
 - License [CC-0 1.0 Universal License](http://creativecommons.org/publicdomain/zero/1.0/)
 - Used By `Eagle.DeSpawn()`
 - File Name `EagleDeSpawn.ogg`
-- ADDME
 
 
 
