@@ -10,8 +10,22 @@
 
 
 ## 2021-02-13
-- [ ] Attend Discussion
+- [x] Attend Discussion
 - [ ] 2D Navigation
+- [x] Find Sounds
+- [x] Find Music
+- [x] Find Character
+- [ ] Add Music
+- [ ] Add Character
+- [ ] Add Sounds
+- [ ] Create EventManager Singleton
+- [ ] Create Animal Class
+- [ ] Differentiate Animal Class in Bear
+- [ ] Differentiate Animal Class in Deer
+- [ ] Differentiate Animal Class in Eagle
+- [ ] Differentiate Animal Class in Monkey
+- [ ] Differentiate Animal Class in Rabbit
+- [ ] Create Player Class
 
 
 
