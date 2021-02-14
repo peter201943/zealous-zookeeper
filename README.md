@@ -332,7 +332,6 @@
 - License [CC-0 1.0 Universal License](http://creativecommons.org/publicdomain/zero/1.0/)
 - Used By `Player.Attack()`
 - File Name `PlayerAttack.ogg`
-- ADDME
 
 ### [For players » Die8.wav](https://freesound.org/people/Far_Box_creature/sounds/469567/)
 - Oneshot-Audio
@@ -340,7 +339,6 @@
 - License [CC-BY 3.0](http://creativecommons.org/licenses/by-nc/3.0/)
 - Used By `Player.DeSpawn()`
 - File Name `PlayerDeSpawn.ogg`
-- ADDME
 
 
 
