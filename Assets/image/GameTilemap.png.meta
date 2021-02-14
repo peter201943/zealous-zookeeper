@@ -1,0 +1,811 @@
+fileFormatVersion: 2
+guid: d67ffdf3d33cda24dbae6e15ab53ee2c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8957628279917098993
+    second: GameTilemap_0
+  - first:
+      213: 7115783823263926835
+    second: GameTilemap_1
+  - first:
+      213: 2435369290901191872
+    second: GameTilemap_2
+  - first:
+      213: 4579961447632993698
+    second: GameTilemap_3
+  - first:
+      213: 3937341673925883566
+    second: GameTilemap_4
+  - first:
+      213: -6988519542170468393
+    second: GameTilemap_5
+  - first:
+      213: 5614538898190980551
+    second: GameTilemap_6
+  - first:
+      213: -2613206446119535607
+    second: GameTilemap_7
+  - first:
+      213: -4610566376162626355
+    second: GameTilemap_8
+  - first:
+      213: 7950469934736719813
+    second: GameTilemap_9
+  - first:
+      213: -8494860457062891277
+    second: GameTilemap_10
+  - first:
+      213: 7547425611189422435
+    second: GameTilemap_11
+  - first:
+      213: 5953420847511239237
+    second: GameTilemap_12
+  - first:
+      213: -8920815731851213016
+    second: GameTilemap_13
+  - first:
+      213: -3882822063473789307
+    second: GameTilemap_14
+  - first:
+      213: 5255633382138791266
+    second: GameTilemap_15
+  - first:
+      213: -4319046561767684898
+    second: GameTilemap_16
+  - first:
+      213: -2925260532205703405
+    second: GameTilemap_17
+  - first:
+      213: 8008381243835260248
+    second: GameTilemap_18
+  - first:
+      213: 9164539546733440775
+    second: GameTilemap_19
+  - first:
+      213: -3338900676754467025
+    second: GameTilemap_20
+  - first:
+      213: 7410356993671982101
+    second: GameTilemap_21
+  - first:
+      213: -5276205482973858504
+    second: GameTilemap_22
+  - first:
+      213: 7195501157364840325
+    second: GameTilemap_23
+  - first:
+      213: -998130604024263485
+    second: GameTilemap_24
+  - first:
+      213: -5165889738878440096
+    second: GameTilemap_25
+  - first:
+      213: -4014203273835362555
+    second: GameTilemap_26
+  - first:
+      213: 917892873641020742
+    second: GameTilemap_27
+  - first:
+      213: 1048574495422264416
+    second: GameTilemap_28
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GameTilemap_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 489
+        width: 162
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f084c89f98c10b380800000000000000
+      internalID: -8957628279917098993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameTilemap_1
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 486
+        width: 84
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33a0e1cafa750c260800000000000000
+      internalID: 7115783823263926835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameTilemap_2
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 486
+        width: 84
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cc7f09877b2cc120800000000000000
+      internalID: 2435369290901191872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameTilemap_3
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 483
+        width: 63
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2adf523cbaa4f8f30800000000000000
+      internalID: 4579961447632993698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameTilemap_4
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 477
+        width: 87
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea6b1b9346f34a630800000000000000
+      internalID: 3937341673925883566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameTilemap_5
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 349
+        width: 37
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dfbd0fc08ac30f90800000000000000
+      internalID: -6988519542170468393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameTilemap_6
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 348
+        width: 37
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c5594c7169daed40800000000000000
+      internalID: 5614538898190980551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameTilemap_7
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 353
+        width: 31
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90cb84625960cbbd0800000000000000
+      internalID: -2613206446119535607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameTilemap_8
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 341
+        width: 64
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc477770f4af300c0800000000000000
+      internalID: -4610566376162626355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameTilemap_9
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 369
+        width: 120
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cfb761484eb55e60800000000000000
+      internalID: 7950469934736719813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameTilemap_10
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 369
+        width: 120
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f001480c613c1a80800000000000000
+      internalID: -8494860457062891277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameTilemap_11
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 237
+        width: 66
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36981abfa97ddb860800000000000000
+      internalID: 7547425611189422435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameTilemap_12
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 265
+        width: 120
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54aff4ed7bcce9250800000000000000
+      internalID: 5953420847511239237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameTilemap_13
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 273
+        width: 119
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 827ca4c3b55e23480800000000000000
+      internalID: -8920815731851213016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameTilemap_14
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 251
+        width: 66
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5867894c7e17d1ac0800000000000000
+      internalID: -3882822063473789307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameTilemap_15
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 228
+        width: 43
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 265411c27b2cfe840800000000000000
+      internalID: 5255633382138791266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameTilemap_16
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 159
+        width: 152
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed4077d090aaf04c0800000000000000
+      internalID: -4319046561767684898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameTilemap_17
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 129
+        width: 43
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31fa86e6b036767d0800000000000000
+      internalID: -2925260532205703405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameTilemap_18
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 207
+        width: 97
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85d93b0af4c732f60800000000000000
+      internalID: 8008381243835260248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameTilemap_19
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 151
+        width: 39
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70fe015792cfe2f70800000000000000
+      internalID: 9164539546733440775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameTilemap_20
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 164
+        width: 152
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f271db55687d9a1d0800000000000000
+      internalID: -3338900676754467025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameTilemap_21
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 87
+        width: 13
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51c66aa8c60e6d660800000000000000
+      internalID: 7410356993671982101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameTilemap_22
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 93
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 835ff59511727c6b0800000000000000
+      internalID: -5276205482973858504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameTilemap_23
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 49
+        width: 99
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 587b4a1ed2e8bd360800000000000000
+      internalID: 7195501157364840325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameTilemap_24
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 75
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cc00b3018de522f0800000000000000
+      internalID: -998130604024263485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameTilemap_25
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 78
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06da05d07a21f48b0800000000000000
+      internalID: -5165889738878440096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameTilemap_26
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 39
+        width: 38
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50745def36faa48c0800000000000000
+      internalID: -4014203273835362555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameTilemap_27
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 40
+        width: 45
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64d4c3394b20dbc00800000000000000
+      internalID: 917892873641020742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameTilemap_28
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 68
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 064bd20b2f84d8e00800000000000000
+      internalID: 1048574495422264416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
