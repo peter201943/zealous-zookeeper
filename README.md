@@ -233,7 +233,6 @@
 - License [CC-0 1.0 Universal License](http://creativecommons.org/publicdomain/zero/1.0/)
 - Used By `Bear.Spawn()`
 - File Name `BearSpawn.ogg`
-- ADDME
 
 ### [GrowlSnarl.wav](https://freesound.org/people/Jamius/sounds/41526/)
 - Oneshot-Audio
@@ -241,7 +240,6 @@
 - License [CC-BY 3.0](http://creativecommons.org/licenses/by-nc/3.0/)
 - Used By `Bear.Attack()`
 - File Name `BearAttack.ogg`
-- ADDME
 
 ### [Monster 4.wav](https://freesound.org/people/Sea%20Fury/sounds/48688/)
 - Oneshot-Audio
@@ -249,7 +247,6 @@
 - License [CC-BY 3.0](http://creativecommons.org/licenses/by-nc/3.0/)
 - Used By `Bear.DeSpawn()`
 - File Name `BearDeSpawn.ogg`
-- ADDME
 
 
 
