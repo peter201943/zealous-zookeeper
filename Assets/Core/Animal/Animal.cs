@@ -64,11 +64,13 @@ public class Animal : MonoBehaviour
     public float moveSoundDelay;        // How frequently to play the move sound
     public float attackDelay;           // How quickly to attack
     public float spawnDelay;            // How long until start playing
+    public float deathDelay;            // How long until deletion
 
     // Delay Trackers
     private float currentMoveSoundDelay;
     private float currentAttackDelay;
     private float currentSpawnDelay;
+    private float currentDeathDelay;
 
     // Sounds
     private AudioSource sounds;
@@ -103,6 +105,7 @@ public class Animal : MonoBehaviour
         currentMoveSoundDelay   = 0.0f;
         currentAttackDelay      = 0.0f;
         currentSpawnDelay       = spawnDelay;
+        currentDeathDelay       = deathDelay;
 
         // TEMP HACK DO NOT USE PERMANENTLY
     }
@@ -112,45 +115,14 @@ public class Animal : MonoBehaviour
 
     void Update()
     {
-        // Decrement All Timers
-        {
-            // MoveSound
-            if (currentMoveSoundDelay > 0.0f)
-            {
-                currentMoveSoundDelay -= Time.deltaTime;
-            }
-            // Attack
-            if (currentAttackDelay > 0.0f)
-            {
-                currentAttackDelay -= Time.deltaTime;
-            }
-            // Spawn
-            if (currentSpawnDelay > 0.0f)
-            {
-                currentSpawnDelay -= Time.deltaTime;
-            }
-        }
-
-        // Check All Timers
-        {
-            // MoveSound
-            if (currentMoveSoundDelay <= 0.0f)
-            {
-                // Do nothing if still spawning
-                if (animalState != AnimalState.Waiting)
-                {
-                    sounds.PlayOneShot(moveSound);
-                    currentMoveSoundDelay = moveSoundDelay;
-                }
-            }
-        }
+        DecrementAllTimers();
 
         // Manage State
         {
             // Delete if done Dying
-            if (animalState == AnimalState.Defeated && !sounds.isPlaying)
+            if (animalState == AnimalState.Defeated && currentDeathDelay <= 0.0f)
             {
-                Destroy(this);
+                Destroy(gameObject);
             }
 
             // Don't do anything else if Dying
@@ -166,6 +138,53 @@ public class Animal : MonoBehaviour
             }
 
             // More...
+        }
+
+        // Check All Timers
+        {
+            // MoveSound
+            if (currentMoveSoundDelay <= 0.0f)
+            {
+                // Do nothing if still spawning
+                if (animalState != AnimalState.Waiting)
+                {
+                    sounds.PlayOneShot(moveSound);
+                    currentMoveSoundDelay = moveSoundDelay;
+                }
+            }
+            // Spawn
+            if (currentSpawnDelay <= 0.0f)
+            {
+                animalState = AnimalState.Patrolling;
+            }
+        }
+    }
+
+
+
+
+
+    private void DecrementAllTimers()
+    {
+        // MoveSound
+        if (currentMoveSoundDelay > 0.0f)
+        {
+            currentMoveSoundDelay -= Time.deltaTime;
+        }
+        // Attack
+        if (currentAttackDelay > 0.0f)
+        {
+            currentAttackDelay -= Time.deltaTime;
+        }
+        // Spawn
+        if (animalState == AnimalState.Waiting && currentSpawnDelay > 0.0f)
+        {
+            currentSpawnDelay -= Time.deltaTime;
+        }
+        // Death
+        if (animalState == AnimalState.Defeated && currentDeathDelay > 0.0f)
+        {
+            currentDeathDelay -= Time.deltaTime;
         }
     }
 
@@ -192,6 +211,10 @@ public class Animal : MonoBehaviour
     /// </summary>
     public void Defeat()
     {
+        if (animalState == AnimalState.Defeated)
+        {
+            return;
+        }
         sounds.PlayOneShot(defeatSound);
         animalState = AnimalState.Defeated;
     }

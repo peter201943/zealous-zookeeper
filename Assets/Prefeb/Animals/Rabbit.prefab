@@ -241,3 +241,4 @@ MonoBehaviour:
   moveSoundDelay: 1
   attackDelay: 2
   spawnDelay: 2
+  deathDelay: 1

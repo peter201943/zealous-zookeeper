@@ -229,6 +229,7 @@ MonoBehaviour:
   moveSoundDelay: 100
   attackDelay: 12
   spawnDelay: 2
+  deathDelay: 2
 --- !u!114 &619880858630932566
 MonoBehaviour:
   m_ObjectHideFlags: 0
