@@ -11,17 +11,111 @@ using UnityEngine;
 /// * Death
 /// * State Management (Via Animation)
 /// </summary>
+[RequireComponent(typeof(AudioSource))]
+[RequireComponent(typeof(Collider2D))]
 public class Animal : MonoBehaviour
 {
-    // Start is called before the first frame update
+
+
+
+    [Header("Interaction")]
+    public float moveSpeed;
+    public float attackDamage;
+
+    [Header("Sounds")]
+    public AudioClip attackSound;
+    public AudioClip moveSound;
+    public AudioClip spawnSound;
+    public AudioClip defeatSound;
+
+    [Header("Collision")]
+    public Collider2D attackCircle;
+    public Collider2D detectionCircle;
+
+    // Sounds
+    private AudioSource sounds;
+
+    // States
+    private bool isDefeated;
+    private bool isAware;
+    private bool isPatrolling;
+
+
+
+
     void Start()
     {
-        
-    }
+        // Sounds
+        sounds = GetComponent<AudioSource>();
+        sounds.PlayOneShot(spawnSound);
 
-    // Update is called once per frame
+        // States
+        isDefeated   = false;
+        isAware      = false;
+        isPatrolling = false;
+    }
+    
+
+
+
     void Update()
     {
-        
+        // Die
+        if(isDefeated && !sounds.isPlaying)
+        {
+            Destroy(this);
+        }
+
+        // Don't do anything
+        if (isDefeated)
+        {
+            return;
+        }
+
+        // More...
+    }
+
+
+
+
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        // TODO
+    }
+
+
+
+
+
+
+    public void Defeat()
+    {
+        sounds.PlayOneShot(defeatSound);
+        isDefeated = true;
+    }
+
+
+
+
+    private void Attack()
+    {
+
+    }
+
+
+
+
+    private void Patrol()
+    {
+
+    }
+
+
+
+
+    private void Chase()
+    {
+
     }
 }
