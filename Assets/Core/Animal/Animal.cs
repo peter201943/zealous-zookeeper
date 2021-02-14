@@ -2,6 +2,28 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
+
+
+/// <summary>
+/// Finite State Machine States for the Animals
+/// </summary>
+public enum AnimalState
+{
+    // We just spawned in and our waiting to play
+    Waiting,
+    // We are out searching for the player
+    Patrolling,
+    // We have spotted the player and are moving towards them
+    // Once we have started chasing, we cannot stop chasing
+    Chasing,
+    // We have been slain and are waiting for effects to end
+    Defeated
+}
+
+
+
+
 /// <summary>
 /// Generic Class for All Animals
 /// Each Animal must define its own PathFindingBehavior
@@ -29,45 +51,76 @@ public class Animal : MonoBehaviour
     public AudioClip defeatSound;
 
     [Header("Collision")]
-    public Collider2D attackCircle;
-    public Collider2D detectionCircle;
+    public Collider2D attackCircle;     // Trigger:  attack when in range
+    public Collider2D detectionCircle;  // Trigger:  change state when in range
+    // public RigidBody rigidBody;      // Collider: stop on walls
+
+    [Header("Delays")]
+    public float moveSoundDelay;        // How frequently to play the move sound
+    public float attackDelay;           // How quickly to attack
+    public float spawnDelay;            // How long until start playing
+
+    // Delay Trackers
+    protected float currentMoveSoundDelay;
+    protected float currentAttackDelay;
+    protected float currentSpawnDelay;
 
     // Sounds
-    private AudioSource sounds;
+    protected AudioSource sounds;
 
     // States
-    private bool isDefeated;
-    private bool isAware;
-    private bool isPatrolling;
+    protected AnimalState animalState;
 
 
 
 
-    void Start()
+    protected void Start()
     {
         // Sounds
         sounds = GetComponent<AudioSource>();
         sounds.PlayOneShot(spawnSound);
 
         // States
-        isDefeated   = false;
-        isAware      = false;
-        isPatrolling = false;
+        animalState = AnimalState.Waiting;
+
+        // Timers
+        currentMoveSoundDelay   = 0.0f;
+        currentAttackDelay      = 0.0f;
+        currentSpawnDelay       = 0.0f;
     }
-    
 
 
 
-    void Update()
+
+    protected void Update()
     {
-        // Die
-        if(isDefeated && !sounds.isPlaying)
+        // Update All Timers
+        {
+            // MoveSound
+            if (currentMoveSoundDelay > 0.0f)
+            {
+                currentMoveSoundDelay -= Time.deltaTime;
+            }
+            // Attack
+            if (currentAttackDelay > 0.0f)
+            {
+                currentAttackDelay -= Time.deltaTime;
+            }
+            // Spawn
+            if (currentSpawnDelay > 0.0f)
+            {
+                currentSpawnDelay -= Time.deltaTime;
+            }
+        }
+
+        // Delete if done Dying
+        if(animalState == AnimalState.Defeated && !sounds.isPlaying)
         {
             Destroy(this);
         }
 
-        // Don't do anything
-        if (isDefeated)
+        // Don't do anything else if Dying
+        if (animalState == AnimalState.Defeated)
         {
             return;
         }
@@ -79,9 +132,13 @@ public class Animal : MonoBehaviour
 
 
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    protected void OnTriggerEnter2D(Collider2D collision)
     {
-        // TODO
+        // If collision is player and we are the awareness circle and we are patrolling
+        // chase them
+        
+        // If collision is player and we are the attack circle and attack delay is done
+        // attack them
     }
 
 
@@ -89,18 +146,25 @@ public class Animal : MonoBehaviour
 
 
 
+    /// <summary>
+    /// Anyone can call this
+    /// </summary>
     public void Defeat()
     {
         sounds.PlayOneShot(defeatSound);
-        isDefeated = true;
+        animalState = AnimalState.Defeated;
     }
 
 
 
 
-    private void Attack()
+    /// <summary>
+    /// Only we can choose to attack
+    /// </summary>
+    protected void Attack(GameObject playerObject)
     {
-
+        sounds.PlayOneShot(attackSound);
+        playerObject.GetComponent<PlayerMover>().Damage(attackDamage);
     }
 
 
