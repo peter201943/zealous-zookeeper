@@ -159,21 +159,25 @@
 - Sprites (Image)
 - [Kenney Game Assets](https://kenney.nl/)
 - [CC0 1.0 Universal License](https://creativecommons.org/publicdomain/zero/1.0/)
+- File Name `Images/Animal/`
 
 ### [Fish Pack](https://kenney.nl/assets/fish-pack)
 - Sprites (Image)
 - [Kenney Game Assets](https://kenney.nl/)
 - [CC0 1.0 Universal License](https://creativecommons.org/publicdomain/zero/1.0/)
+- File Name `Images/Fish/`
 
 ### [Fruit icons redo](https://opengameart.org/content/fruit-icons-redo)
 - Sprites (Image)
 - [Game Developer Studio](https://opengameart.org/users/game-developer-studio)
 - [CC-BY 3.0 License](http://creativecommons.org/licenses/by/3.0/)
+- File Name `Images/Fruit/`
 
 ### [Toon Characters 1](https://kenney.nl/assets/toon-characters-1)
 - Sprites (Image)
 - [Kenney Game Assets](https://kenney.nl/)
 - [CC0 1.0 Universal License](https://creativecommons.org/publicdomain/zero/1.0/)
+- File Name `Images/ToonCharacters/`
 - ADDME
 
 
@@ -187,11 +191,14 @@
 - Looped-Audio
 - [Kevin MacLeod](https://incompetech.filmmusic.io/artists/kevin-macleod)
 - [Simplified Filmmusic.io Standard License](https://incompetech.filmmusic.io/standard-license)
+- File Name `LeGrandChase.ogg`
+- ADDME
 
 ### [Run Amok](https://incompetech.filmmusic.io/song/4311-run-amok)
 - Looped-Audio
 - [Kevin MacLeod](https://incompetech.filmmusic.io/artists/kevin-macleod)
 - [Simplified Filmmusic.io Standard License](https://incompetech.filmmusic.io/standard-license)
+- File Name `RunAmok.ogg`
 - ADDME
 
 
