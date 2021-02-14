@@ -24,12 +24,12 @@
 - [x] Find Music
 - [x] Find Character
 - [ ] Add Sounds
-- [ ] Add Music
-- [ ] Add Player Character
-- [ ] Create EventManager Singleton
-  - [ ] Add to all scenes
-  - [ ] `music[]`
-  - [ ] `Singleton`
+- [x] Add Music
+- [x] Add Player Character
+- [x] Create EventManager Singleton
+  - [x] Add to all scenes
+  - [x] `music[]`
+  - [x] `Singleton`
 - [ ] Create Animal Class
   - [ ] Adjust Movement Collider Size
   - [ ] `Start()`
