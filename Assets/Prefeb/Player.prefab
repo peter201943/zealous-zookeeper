@@ -44,6 +44,7 @@ GameObject:
   - component: {fileID: 6261107425616027930}
   - component: {fileID: 6261107425616027931}
   - component: {fileID: 6261107425616027910}
+  - component: {fileID: 4922308177654008632}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -211,3 +212,22 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   bulletforce: 20
+--- !u!114 &4922308177654008632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6261107425616027928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f1de9d0b110ab5419a15e23d0db7860, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 0
+  attackSound: {fileID: 8300000, guid: ca7200b8913a53344ad4b35445449ff6, type: 3}
+  moveSound: {fileID: 8300000, guid: 85b4761517be5cd4aaa896f62405b831, type: 3}
+  spawnSound: {fileID: 0}
+  defeatSound: {fileID: 8300000, guid: 8cc2ef60a2eef5846a071d1de7c52006, type: 3}
+  moveSoundDelay: 3
+  health: 0

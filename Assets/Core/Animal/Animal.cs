@@ -53,7 +53,11 @@ public class Animal : MonoBehaviour
 
     [Header("Collision")]
     public Collider2D attackCircle;     // Trigger:  attack when in range
-    public Collider2D detectionCircle;  // Trigger:  change state when in range
+    
+    // TODO Move to AnimalBehavior and handle from there
+    //public Collider2D detectionCircle;  // Trigger:  change state when in range
+    
+    // IMPLIED
     // public RigidBody rigidBody;      // Collider: stop on walls
 
     [Header("Delays")]
@@ -95,7 +99,7 @@ public class Animal : MonoBehaviour
         // Timers
         currentMoveSoundDelay   = 0.0f;
         currentAttackDelay      = 0.0f;
-        currentSpawnDelay       = 0.0f;
+        currentSpawnDelay       = spawnDelay;
     }
 
 
@@ -103,7 +107,7 @@ public class Animal : MonoBehaviour
 
     void Update()
     {
-        // Update All Timers
+        // Decrement All Timers
         {
             // MoveSound
             if (currentMoveSoundDelay > 0.0f)
@@ -122,19 +126,42 @@ public class Animal : MonoBehaviour
             }
         }
 
-        // Delete if done Dying
-        if(animalState == AnimalState.Defeated && !sounds.isPlaying)
+        // Check All Timers
         {
-            Destroy(this);
+            // MoveSound
+            if (currentMoveSoundDelay <= 0.0f)
+            {
+                // Do nothing if still spawning
+                if (animalState != AnimalState.Waiting)
+                {
+                    sounds.PlayOneShot(moveSound);
+                    currentMoveSoundDelay = moveSoundDelay;
+                }
+            }
         }
 
-        // Don't do anything else if Dying
-        if (animalState == AnimalState.Defeated)
+        // Manage State
         {
-            return;
-        }
+            // Delete if done Dying
+            if (animalState == AnimalState.Defeated && !sounds.isPlaying)
+            {
+                Destroy(this);
+            }
 
-        // More...
+            // Don't do anything else if Dying
+            if (animalState == AnimalState.Defeated)
+            {
+                return;
+            }
+
+            // Do nothing if still spawning
+            if (animalState == AnimalState.Waiting)
+            {
+                return;
+            }
+
+            // More...
+        }
     }
 
 
@@ -174,6 +201,7 @@ public class Animal : MonoBehaviour
     {
         sounds.PlayOneShot(attackSound);
         playerObject.GetComponent<PlayerMover>().Damage(attackDamage);
+        currentAttackDelay = attackDelay;
     }
 
 
@@ -182,6 +210,7 @@ public class Animal : MonoBehaviour
     /// Called from update
     /// Find paths
     /// TODO
+    /// TODO move to AnimalBehavior
     /// </summary>
     private void Patrol()
     {
@@ -191,6 +220,9 @@ public class Animal : MonoBehaviour
 
 
 
+    /// <summary>
+    /// TODO move to AnimalBehavior
+    /// </summary>
     private void Chase()
     {
 
