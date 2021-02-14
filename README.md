@@ -178,14 +178,13 @@
 - [Kenney Game Assets](https://kenney.nl/)
 - [CC0 1.0 Universal License](https://creativecommons.org/publicdomain/zero/1.0/)
 - File Name `Images/ToonCharacters/`
-- ADDME
 
 
 
 
 
 
-## Audio Credits
+## Music Credits
 
 ### [Le Grand Chase](https://incompetech.filmmusic.io/song/4670-le-grand-chase)
 - Looped-Audio
@@ -199,6 +198,14 @@
 - [Kevin MacLeod](https://incompetech.filmmusic.io/artists/kevin-macleod)
 - [Simplified Filmmusic.io Standard License](https://incompetech.filmmusic.io/standard-license)
 - File Name `RunAmok.ogg`
+- ADDME
+
+### [Generic Jungle, Costa Rica#1.wav](https://freesound.org/people/TRAVELcandies/sounds/423398/)
+- Looped-Audio
+- [TRAVELcandies](https://freesound.org/people/TRAVELcandies/)
+- [CC-BY 3.0](http://creativecommons.org/licenses/by-nc/3.0/)
+- Used By `Forest.Spawn()`
+- File Name `ForestSpawn.ogg`
 - ADDME
 
 
@@ -231,14 +238,6 @@
 - [CC-0 1.0 Universal License](http://creativecommons.org/publicdomain/zero/1.0/)
 - Used By `Player.Attack()`
 - File Name `PlayerAttack.ogg`
-- ADDME
-
-### [Generic Jungle, Costa Rica#1.wav](https://freesound.org/people/TRAVELcandies/sounds/423398/)
-- Looped-Audio
-- [TRAVELcandies](https://freesound.org/people/TRAVELcandies/)
-- [CC-BY 3.0](http://creativecommons.org/licenses/by-nc/3.0/)
-- Used By `Forest.Spawn()`
-- File Name `ForestSpawn.ogg`
 - ADDME
 
 ### [TEC Bird Chirps and Phrases » brd_hawk.wav](https://freesound.org/people/tec_studio/sounds/362426/)
