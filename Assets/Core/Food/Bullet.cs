@@ -19,14 +19,23 @@ public class Bullet : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == this.gameObject.tag)
+        {   
+            // Destroy Ourselves
+            Destroy(this.gameObject);
+
+            // Notify the target (if it is an animal)
+            try
+            {
+                collision.gameObject.GetComponent<Animal>().Defeat();
+            }
+            catch
+            {
+            }
+        }
+
+        if (collision.gameObject.tag != "Player" && collision.gameObject.tag != this.gameObject.tag)
         {
-            Destroy(collision.gameObject);
             Destroy(this.gameObject);
         }
-        
-       if(collision.gameObject.tag != "Player" && collision.gameObject.tag != this.gameObject.tag)
-            Destroy(this.gameObject);
-        // if(collision.gameObject.tag == "Wall")
-        //   Destroy(this.gameObject);
     }
 }
