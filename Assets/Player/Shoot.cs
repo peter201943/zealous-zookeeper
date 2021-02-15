@@ -90,16 +90,16 @@ public class Shoot : MonoBehaviour
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
+    {   
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Fish" && collision.gameObject.layer == LayerMask.NameToLayer("Supply"))
         {
             RemainBullet[2] = 10;
             BulletText[2].text = RemainBullet[2].ToString();
         }
-    }
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if(collision.tag == "Banana" && collision.gameObject.layer == LayerMask.NameToLayer("Supply"))
+        if (collision.tag == "Banana" && collision.gameObject.layer == LayerMask.NameToLayer("Supply"))
             {
             RemainBullet[0] = 10;
             BulletText[0].text = RemainBullet[0].ToString();
