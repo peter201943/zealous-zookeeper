@@ -256,7 +256,7 @@ GameObject:
   - component: {fileID: 3985107575729830881}
   - component: {fileID: 7428004315744162548}
   m_Layer: 8
-  m_Name: BananaTree
+  m_Name: BananaSource
   m_TagString: Banana
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -269,9 +269,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3985107575729830886}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -130.25607, y: -7.330225, z: 1.4473203}
-  m_LocalScale: {x: 2.3835, y: 2.3835, z: 2.3835}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
   - {fileID: 3985107574073679477}
   - {fileID: 3985107574479250284}
