@@ -75,9 +75,18 @@ public class PlayerMover : MonoBehaviour
 
     protected void Defeat()
     {
-        sounds.PlayOneShot(defeatSound);
+        try
+        {
+            sounds.PlayOneShot(defeatSound);
+        }
+        catch
+        {
+            Debug.Log("WTF? (defeatSound)");
+        }
         playerState = PlayerState.Defeated;
-        
+
+        Debug.Log("Player: OUCH!");
+
         // Notify GameManager of Game Over
         // gameManager.PlayerDefeated();
         // TODO
