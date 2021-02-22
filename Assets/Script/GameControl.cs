@@ -82,6 +82,9 @@ public class GameControl : MonoBehaviour
         if (GameObject.Find("Animal").transform.childCount < nub_animals)
         {
             ChangePosition();
+            GameObject animal_new = Instantiate(animals[Random.Range(0, 4)], this.transform.position, new Quaternion(0f, 0f, 0f, 0f));
+            nub_animals_total++;
+            animal_new.transform.SetParent(GameObject.Find("Animal").transform);
         }
         else {
             is_new_round = false;
