@@ -261,10 +261,10 @@ MonoBehaviour:
   spawnSound: {fileID: 8300000, guid: 83f260032bdd6f841a4d93c0bf69eafa, type: 3}
   defeatSound: {fileID: 8300000, guid: 93b60db8a2e103942ba37765ae80d3d4, type: 3}
   attackCircle: {fileID: -3180406092368470360}
-  moveSoundDelay: 0
-  attackDelay: 0
-  spawnDelay: 0
-  deathDelay: 0
+  moveSoundDelay: 1
+  attackDelay: 1
+  spawnDelay: 1
+  deathDelay: 1
   navDelay: 1
 --- !u!58 &-3180406092368470360
 CircleCollider2D:
