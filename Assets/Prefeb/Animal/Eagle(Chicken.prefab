@@ -219,8 +219,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c56fccc29e03584cbb9f7347d3dcfc2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 0
-  attackDamage: 0
+  moveSpeed: 7
+  attackDamage: 7
   attackSound: {fileID: 8300000, guid: dd50182b525f8514cace5c9603dd7012, type: 3}
   moveSound: {fileID: 8300000, guid: 6fb93a294b229b042a316b8151376a06, type: 3}
   spawnSound: {fileID: 8300000, guid: cd6b7128d59ce7144a0b94eb1f589c18, type: 3}
