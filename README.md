@@ -153,6 +153,19 @@
 
 
 
+## Code Credits
+
+### [NavMeshPlus](https://github.com/h8man/NavMeshPlus)
+- 2D Navigation
+- By [H8Man](https://github.com/h8man)
+- License [MIT License](https://mit-license.org/)
+- File Name `NavMeshPlus`
+
+
+
+
+
+
 ## Image Credits
 
 ### [Animal Pack Redux](https://kenney.nl/assets/animal-pack-redux)
