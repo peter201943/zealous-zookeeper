@@ -46,6 +46,9 @@ public class PlayerMover : MonoBehaviour
     // State
     protected PlayerState playerState;
 
+    // Game Over
+    private GameManager gameManager;
+
     protected void Start()
     {
         // Health
@@ -53,6 +56,10 @@ public class PlayerMover : MonoBehaviour
 
         // State
         playerState = PlayerState.Alive;
+
+        // Find Game Manager
+        // https://docs.unity3d.com/ScriptReference/GameObject.Find.html
+        gameManager = GameObject.Find("EventSystem").GetComponent<GameManager>();
     }
 
     protected void Update()
@@ -88,8 +95,7 @@ public class PlayerMover : MonoBehaviour
         Debug.Log("Player: Bleh!");
 
         // Notify GameManager of Game Over
-        // gameManager.PlayerDefeated();
-        // TODO
+        gameManager.GameOver();
     }
 
     public void Damage(float amount)
