@@ -215,6 +215,7 @@ public class Animal : MonoBehaviour
         {
             return;
         }
+        Debug.Log(gameObject.name + ": DEFEATED");
         sounds.PlayOneShot(defeatSound);
         animalState = AnimalState.Defeated;
     }
