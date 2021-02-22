@@ -5,13 +5,19 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Tutorial.unity
     guid: 43b2e42bbc35f0047b1151bef8c2426e
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/AITestLevel/AITestLevel.unity
     guid: 715e4523ca9577942be0c9c2f92e04b7
   - enabled: 1
     path: Assets/Scenes/ForestLevel/ForestLevel.unity
     guid: f13bc3b4cbe32414a952a7351bd67dff
+  - enabled: 1
+    path: Assets/Scenes/TutorialLevel/TutorialLevel.unity
+    guid: 27412cf4051cc5b4a92ecb3f8589573d
+  - enabled: 1
+    path: Assets/Scenes/DesertLevel/EditedDesertLevel.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects: {}
