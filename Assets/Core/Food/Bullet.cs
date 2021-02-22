@@ -18,7 +18,6 @@ public class Bullet : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        // Game Rules
         if (collision.gameObject.tag == this.gameObject.tag)
         {   
             // Notify World
@@ -33,9 +32,15 @@ public class Bullet : MonoBehaviour
             {
                 Debug.Log("Could Not Find Animal or Could not call Defeat");
             }
+
+            // Destroy Ourselves
+            Destroy(this.gameObject);
         }
 
-        // Destroy Ourselves
-        Destroy(this.gameObject);
+        if (collision.gameObject.tag != "Player" && collision.gameObject.tag != this.gameObject.tag)
+        {
+            // Destroy Ourselves
+            Destroy(this.gameObject);
+        }
     }
 }

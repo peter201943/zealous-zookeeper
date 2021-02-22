@@ -47,7 +47,8 @@ public class GameControl : MonoBehaviour
 
         if (collision.gameObject.tag == "Ground")
         {
-            Debug.Log(transform.position);
+            // Too much debug
+            // Debug.Log(transform.position);
             GameObject animal_new = Instantiate(animals[Random.Range(0,4)], this.transform.position, new Quaternion(0f,0f,0f,0f));
             animal_new.transform.SetParent(GameObject.Find("Animal").transform);
         }
