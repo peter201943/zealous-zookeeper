@@ -12,12 +12,19 @@ public class GameManager : MonoBehaviour
     private int currentClip;
     private int maxClip;
 
+    // Game Over Screen
+    [Header("Activated on game loss")]
+    public GameObject gameOverScreen;
+
     void Start()
     {
         currentClip = 0;
         maxClip = musicTracks.Count;
         music = GetComponent<AudioSource>();
         music.volume = 0.3f;
+
+        // Game Over Reset
+        gameOverScreen.SetActive(false);
     }
 
     // Check if music has stopped playing
@@ -34,5 +41,17 @@ public class GameManager : MonoBehaviour
             music.clip = musicTracks[currentClip];
             music.Play();
         }
+    }
+
+    public void GameOver()
+    {
+        // TEMP Notice
+        Debug.Log("GAME OVER");
+
+        // Stop Music
+        music.Stop();
+
+        // Play Game Over
+        gameOverScreen.SetActive(true);
     }
 }
