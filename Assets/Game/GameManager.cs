@@ -16,6 +16,9 @@ public class GameManager : MonoBehaviour
     [Header("Activated on game loss")]
     public GameObject gameOverScreen;
 
+    // Music
+    private bool playMusic;
+
     void Start()
     {
         currentClip = 0;
@@ -25,13 +28,16 @@ public class GameManager : MonoBehaviour
 
         // Game Over Reset
         gameOverScreen.SetActive(false);
+
+        // Music
+        playMusic = true;
     }
 
     // Check if music has stopped playing
     // If it has, find the next track and play again
     void Update()
     {
-        if (!music.isPlaying)
+        if (!music.isPlaying && playMusic)
         {
             currentClip += 1;
             if (currentClip > maxClip)
@@ -50,6 +56,7 @@ public class GameManager : MonoBehaviour
 
         // Stop Music
         music.Stop();
+        playMusic = false;
 
         // Play Game Over
         gameOverScreen.SetActive(true);
