@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 6169333213353453847}
   - component: {fileID: 5186956904212802171}
   - component: {fileID: 1211226540004413498}
+  - component: {fileID: 5324612395759428723}
   m_Layer: 0
   m_Name: Deer
   m_TagString: Berry
@@ -246,9 +247,25 @@ MonoBehaviour:
   moveSound: {fileID: 8300000, guid: 85b4761517be5cd4aaa896f62405b831, type: 3}
   spawnSound: {fileID: 8300000, guid: 83f260032bdd6f841a4d93c0bf69eafa, type: 3}
   defeatSound: {fileID: 8300000, guid: 93b60db8a2e103942ba37765ae80d3d4, type: 3}
-  attackCircle: {fileID: 0}
+  attackCircle: {fileID: 5324612395759428723}
   moveSoundDelay: 1
   attackDelay: 1
   spawnDelay: 1
   deathDelay: 1
   navDelay: 1
+--- !u!58 &5324612395759428723
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3966866672710051476}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 1.345
