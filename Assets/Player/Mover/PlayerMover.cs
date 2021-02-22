@@ -85,7 +85,7 @@ public class PlayerMover : MonoBehaviour
         }
         playerState = PlayerState.Defeated;
 
-        Debug.Log("Player: OUCH!");
+        Debug.Log("Player: Bleh!");
 
         // Notify GameManager of Game Over
         // gameManager.PlayerDefeated();
@@ -95,6 +95,7 @@ public class PlayerMover : MonoBehaviour
     public void Damage(float amount)
     {
         currentHealth -= amount;
+        Debug.Log("Player: Ouch!");
     }
 
     protected void Attack()
