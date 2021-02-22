@@ -230,4 +230,4 @@ MonoBehaviour:
   spawnSound: {fileID: 8300000, guid: a19436b7aa501794dbbcea9084b54c58, type: 3}
   defeatSound: {fileID: 8300000, guid: 8cc2ef60a2eef5846a071d1de7c52006, type: 3}
   moveSoundDelay: 3
-  health: 0
+  health: 100
