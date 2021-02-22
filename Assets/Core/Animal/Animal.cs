@@ -127,6 +127,15 @@ public class Animal : MonoBehaviour
         if (players.Length > 0)
         {
             target = players[0].transform;
+            Debug.Log("FOUND " + target);
+        }
+        else
+        {
+            Debug.Log("Cannot find any players");
+            // TEMP HACK WARN DANGER
+            GameObject player = GameObject.Find("Player");
+            target = player.transform;
+            Debug.Log("HACK FOUND " + target);
         }
     }
 
@@ -152,11 +161,12 @@ public class Animal : MonoBehaviour
                 return;
             }
 
-            // Do nothing if still spawning
-            if (animalState == AnimalState.Waiting)
-            {
-                return;
-            }
+            // NOT IN USE
+            // // Do nothing if still spawning
+            // if (animalState == AnimalState.Waiting)
+            // {
+            //     return;
+            // }
 
             // More...
         }
@@ -187,12 +197,22 @@ public class Animal : MonoBehaviour
             if (players.Length > 0)
             {
                 target = players[0].transform;
+                Debug.Log("FOUND " + target);
+            }
+            else
+            {
+                Debug.Log("Cannot find any players");
+                // TEMP HACK WARN DANGER
+                GameObject player = GameObject.Find("Player");
+                target = player.transform;
+                Debug.Log("HACK FOUND " + target);
             }
         }
 
         // Update Path every once in a while
         if (currentNavDelay <= 0.0f)
         {
+
             // Find New Path
             navAgent.SetDestination(target.position);
 
@@ -265,6 +285,9 @@ public class Animal : MonoBehaviour
         {
             try
             {
+                // play sound
+                sounds.PlayOneShot(attackSound);
+
                 // attack them
                 collision.gameObject.GetComponent<PlayerMover>().Damage(attackDamage);
 
