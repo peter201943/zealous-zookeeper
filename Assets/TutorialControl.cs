@@ -16,7 +16,7 @@ public class TutorialControl : MonoBehaviour
     {
         if (GameObject.Find("Animal").transform.childCount <= 0)
         {
-            SceneManager.LoadScene("AITestLevel");
+            SceneManager.LoadScene("ForestLevel");
         }
     }
 }
